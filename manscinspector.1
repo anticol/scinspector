@@ -1,0 +1,38 @@
+.Dd 24/4/17               
+.Dt scinspector 1      
+.Os David Horov
+.Sh NAME                 
+.Nm scinspector
+.Nd looks for mistakes and bad practices in C and C++ source code
+.Sh SYNOPSIS             
+.Nm 
+.Op Fl c|-cpp             
+.Ar directory
+.Op options...         
+.Sh OPTIONS                  
+.Pp
+.Bl -tag -width -indent  
+.It Fl o
+checks all homework submitted in "naostro" mode 
+.Pp
+.It Fl n
+checks all homework submitted in "nanecisto" mode 
+.Pp
+.It Fl lo
+checks only last homework submitted in "naostro" mode 
+.Pp
+.It Fl s=student_dir 
+specify the exact directory of student which will be checked
+.Pp
+.It Fl h=homework_dir  
+specify the exact homework directory which will be checked
+.Pp
+.It Fl d=delimiter
+specify delimiter which will be used in output files
+.Pp
+.It Fl -help
+prints manual page of scinspector 
+.Pp
+.El                     
+By default all files found in directory/*/*/*/* are checked
+.Pp
