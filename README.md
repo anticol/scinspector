@@ -27,24 +27,9 @@
   o options - optional switches (more information in MANPAGE)
 
   Input directory must have this structure:
-
-  ├───directory
-  │         ├───001
-  │         │   ├───hw01
-  │         │   │   ├───221005_nanecisto
-  │         │   │   ├───223505_nanecisto
-  │         │   │   ├───135004_naostro
-  │         │   │   ├───184504_nanecisto
-  │         │   │   ├───185505_naostro
-  │         │   ├───hw02
-  │         │   │   ├───221005_nanecisto
-  │         │   │   ├───234505_nanecisto
-  │         │   │   ├───134524_naostro
-  │         ├───002
-  │         │   ├───hw01
-  │         │   │   ├───253245_nanecisto
-  │         │   │   ├───223305_nanecisto                  
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/anticol/scinspector/master/readme_images/directory_structure.png" width="610" height="280"/>
+</p>
 
   In first level, there are directories of students (001,002), second level contains 
   directories with all homework (hw01,hw02,hw01), third level contains directories with 
@@ -83,25 +68,26 @@
 
 
   Example of output file - results.txt
-  pb061_spring16,uninitvar,naostro,001,hw01,221005_nanecisto,ascii85.c,172
-  pb061_spring16,forInsteadOfWhile,naostro,003,hw01,135004_naostro,ascii85.c,173
-  pb061_spring16,uninitvar,nanecičsto,004,hw01,221005_nanecisto,ascii85.c,20
-  pb061_spring16,usingGets,naostro,003,hw01,135004_naostro,ascii85.c,141
+  <p align="center">
+  <img src="https://raw.githubusercontent.com/anticol/scinspector/master/readme_images/results.png" width="450" height="150"/>
+</p>
 
 
   Example of output file - results_stats.txt
-  uninitvar           2
-  usingGets           1
-  forInsteadOfWhile   1
-          .
-          . 
-          .
+   <p align="center">
+  <img src="https://raw.githubusercontent.com/anticol/scinspector/master/readme_images/stats.png" width="220" height="250"/>
+</p>             
 
 
   MANPAGE
   ----------------------------------------------------------------------------------------
   For manual page with all optional possibilities use this command:
   ./scinpector --help
+  
+   <p align="center">
+  <img src="https://raw.githubusercontent.com/anticol/scinspector/master/readme_images/manpage.png" width="500" height="390"/>
+</p>    
+
 
 
   USAGE EXAMPLES
@@ -120,6 +106,13 @@
   Control of all submitted homework in C, of all students in directory pb071_autumn17
   ./scinspector -c pb071_autumn17 
 
+
+  Output form of scinspector:
+  
+   
+   <p align="center">
+  <img src="https://raw.githubusercontent.com/anticol/scinspector/master/readme_images/script_example.png" width="400" height="280"/>
+</p>    
 
   LICENSE
   ----------------------------------------------------------------------------------------
