@@ -1,30 +1,29 @@
 # scinspector
-  Scinspector (Source Code Inspector) is script for searching chosen mistakes in source codes written in C and C++. 
+  Scinspector (Source Code Inspector) is script for searching chosen mistakes in source codes written in C and C++. <br>
   
-  This script is one of the result of my bachelor thesis - Analyzing most common programming 
-  mistakes of C/C++ students
+  This script is one of the result of my bachelor thesis - Analyzing most common programming mistakes of C/C++ students<br>
 
-  For more information about controlling mistakes and this script read thesis (link)
+  For more information about controlling mistakes and this script read thesis (link)<br>
 
  
   INSTALATION
   ----------------------------------------------------------------------------------------
-  You need to install command line version of:
+  You need to install command line version of:<br>
 
-  o Go Lang - https://golang.org/doc/install
-  o Google Code Search - https://github.com/google/codesearch
-  o Cppcheck - http://cppcheck.sourceforge.net/
+  o Go Lang - https://golang.org/doc/install<br>
+  o Google Code Search - https://github.com/google/codesearch<br>
+  o Cppcheck - http://cppcheck.sourceforge.net/<br>
 
 
   INPUT
   ----------------------------------------------------------------------------------------
-  General format:
+  General format:<br>
 
-  ./scinpector -c|-cpp directory [options...]
+  ./scinpector -c|-cpp directory [options...]<br>
 
-  o switch -c resp. -cpp for control of source codes in C resp. C++
-  o directory - input directory with all source codes
-  o options - optional switches (more information in MANPAGE)
+  o switch -c resp. -cpp for control of source codes in C resp. C++<br>
+  o directory - input directory with all source codes<br>
+  o options - optional switches (more information in MANPAGE)<br>
 
   Input directory must have this structure:
 <p align="center">
@@ -49,18 +48,18 @@
   ----------------------------------------------------------------------------------------
   Output of this script consists of 2 files.
 
-  o results.txt - contains:
-    • Controlling  semester
-    • Mark of the mistake
-    • Mode of submitted homework
-    • Mark of the student
-    • Mark of the homework
-    • Name of the directory with submitted homework
-    • Name of the file containing mistake
-    • Number of line, where the mistake occurred
-  o results_stats.txt - contains:
-    • Mark of the mistake
-    • Total number of occurrences of the mistake.
+  o results.txt - contains: <br>
+    • Controlling  semester<br>
+    • Mark of the mistake <br>
+    • Mode of submitted homework<br>
+    • Mark of the student<br>
+    • Mark of the homework<br>
+    • Name of the directory with submitted homework<br>
+    • Name of the file containing mistake<br>
+    • Number of line, where the mistake occurred<br><br>
+  o results_stats.txt - contains:<br>
+    • Mark of the mistake<br>
+    • Total number of occurrences of the mistake.<br>
 
 
   Information are from the absolute path of file where mistake occurred, due to this fact
@@ -93,17 +92,17 @@
   USAGE EXAMPLES
   ----------------------------------------------------------------------------------------
 
-  Control of all homework submitted in 'nanecito' mode in C++ of student 003, of homework hw03 in directory pb161_spring17
+  Control of all homework submitted in 'nanecito' mode in C++ of student 003, of homework hw03 in directory pb161_spring17<br>
   ./scinspector -cpp pb161_spring17 -s=003 -hw=hw03 -n
 
-  Control of all homework  submitted in last 'naostro' mode in C++ of student 003 in directory pb071_spring17
+  Control of all homework  submitted in last 'naostro' mode in C++ of student 003 in directory pb071_spring17<br>
   ./scinspector -c pb071_spring17 -s=003 -lo
 
   Control of all homework  submitted in 'naostro' mode in C++ of all students, of homework hw04 in directory pb161_autumn17, 
-  values in output file will be separated by dash
+  values in output file will be separated by dash<br>
   ./scinspector -cpp pb161_autumn17 -hw=hw04 -d='-' -o
 
-  Control of all submitted homework in C, of all students in directory pb071_autumn17
+  Control of all submitted homework in C, of all students in directory pb071_autumn17<br>
   ./scinspector -c pb071_autumn17 
 
 
