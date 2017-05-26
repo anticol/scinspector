@@ -3,7 +3,7 @@
   
   This script is one of the result of my bachelor thesis - Analyzing most common programming mistakes of C/C++ students<br>
 
-  For more information about controlling mistakes and this script read thesis (link)<br>
+  For more information about controlling mistakes and this script read thesis (https://is.muni.cz/th/433826/fi_b/)<br>
 
  
   INSTALATION
