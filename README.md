@@ -126,3 +126,7 @@
   CONTACT
   ----------------------------------------------------------------------------------------
   Your can contact author using email - horov.david@gmail.com
+
+
+Other projects: 
+https://freeutilitytools.com/
